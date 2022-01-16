@@ -27,7 +27,8 @@ git diff --name-only --> enchergo apenas os arquivos
 git diff {nome do arquivo} ex: style.css,consigo acessar direatamente o arquivo e ver as mudancas
 </br>
  git merge {branch que esta a frente} ex: kenji,para mergear em uma branch que esta a frente da sua,fique na sua e coloque o nome da branch
-</br>
- **git remote -v** --> enchergo o link do repositorio remoto na maquina
-`git remote {nome que esta ao lado do link} ex: origin` -> removo o repositorio remoto
+ ---
+  -git remote -v --> enchergo o link do repositorio remoto na maquina
+ ---`
+ git remote {nome que esta ao lado do link} ex: origin` -> removo o repositorio remoto
 
