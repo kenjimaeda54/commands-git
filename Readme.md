@@ -21,12 +21,9 @@ git checkout -> consigo alterar entre as versoes dos arquivos e possivel ate vol
 log com grafico ideal para enchergar novas mudancas 
 **git log --decorate --oneline --graph --all**
 
-</br>
 git diff --> enchergo todas as alteracoes do arquivo
 git diff --name-only --> enchergo apenas os arquivos
-git diff {nome do arquivo} ex: style.css,consigo acessar direatamente o arquivo e ver as mudancas
-</br>
- git merge {branch que esta a frente} ex: kenji,para mergear em uma branch que esta a frente da sua,fique na sua e coloque o nome da branch
+git diff {nome do arquivo} ex: style.css,consigo acessar direatamente o arquivo e ver as mudancas git merge {branch que esta a frente} ex: kenji,para mergear em uma branch que esta a frente da sua,fique na sua e coloque o nome da branch
  ~ ~ ~ 
  git remote -v --> enchergo o link do repositorio remoto na maquina
  ~ ~ ~ 
