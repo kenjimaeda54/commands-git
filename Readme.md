@@ -36,3 +36,7 @@ Ele vai criar um novo commit,com os valores anterior apos o revet
 </br>
 
 **git clone < ulr >** --> clonar projeto
+</br>
+
+Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópia do original no seu repositório remoto, clona esse projeto, trabalha e faz um push com as alterações, apos isto cria um pull request.
+
