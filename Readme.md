@@ -24,7 +24,7 @@ Ele vai criar um novo commit,com os valores  anterior  apos o revet
 **git diff** --> enxergo todas as alterações do arquivo </br>
 **git diff --name-only** --> enxergo apenas os arquivos </br>
 **git diff <nome do arquivo> ex: style.css** --> consigo acessar direitamente o arquivo e ver as mudanças </br>
-git merge <branch que esta a frente> ex: kenji --> para mergear em uma branch que esta a frente da sua,fique na sua e coloque o nome da branch
+**git merge <branch que esta a frente> ex: kenji** --> para mergear em uma branch que esta a frente da sua,e so colocar o nome da branch
 </br>
 
 **git remote -v** --> enxergo o link do repositório remoto na maquina</br>
