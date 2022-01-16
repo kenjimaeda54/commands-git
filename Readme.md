@@ -7,7 +7,7 @@ git reset tem algumas opções como --soft --hard --mixed , --hard vai voltar e 
 </br>
 
 **git push revert <hash> ex: 343434**, precisa colocar o hash que quero voltar</br>
-Ele vai criar um novo commit,neste novo commit vai possuir os valores dos histórico anterior apos o revet
+Ele vai criar um novo commit,com os valores  anterior  apos o revet
 </br>
 
 **git branch** --> enxergo a branch atual</br>
