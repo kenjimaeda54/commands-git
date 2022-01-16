@@ -11,11 +11,11 @@ Ele vai criar um novo commit,com os valores  anterior  apos o revet
 </br>
 
 **git branch** --> enxergo a branch atual</br>
-**git switch <nome da branch> ex: feat** ->  para mudar de branch</br>
+**git switch < nome da branch > ex: feat** ->  para mudar de branch</br>
 
-**git checkout -b <none branch> ex:feat** -->  cria uma nova branch</br>
+**git checkout -b < none branch > ex:feat** -->  cria uma nova branch</br>
 **git checkout** -> consigo alternar entre as versões dos arquivos</br>
-**git checkout HEAD -- <nome do arquivo> ex: style.css** --> consigo voltar ao estado anterior de um arquivo, como também recuperar se ele foi deletado</br>
+**git checkout HEAD -- < nome do arquivo > ex: style.css** --> consigo voltar ao estado anterior de um arquivo, como também recuperar se ele foi deletado</br>
 </br>
 
 **git log --decorate --online --graph --all** --> log com gráfico ideal para enxergar novas mudanças</br>
@@ -23,9 +23,9 @@ Ele vai criar um novo commit,com os valores  anterior  apos o revet
 
 **git diff** --> enxergo todas as alterações do arquivo </br>
 **git diff --name-only** --> enxergo apenas os arquivos </br>
-**git diff <nome do arquivo> ex: style.css** --> consigo acessar direitamente o arquivo e ver as mudanças </br>
-**git merge <branch que esta a frente> ex: kenji** --> para mergear em uma branch que esta a frente da sua,e so colocar o nome da branch
+**git diff < nome do arquivo > ex: style.css** --> consigo acessar direitamente o arquivo e ver as mudanças </br>
+**git merge < branch que esta a frente > ex: kenji** --> para mergear em uma branch que esta a frente da sua,e so colocar o nome da branch
 </br>
 
 **git remote -v** --> enxergo o link do repositório remoto na maquina</br>
-**git remote <nome que esta ao lado do link> ex: origin** -> removo o repositorio remoto
+**git remote < nome que esta ao lado do link > ex: origin** -> removo o repositorio remoto
