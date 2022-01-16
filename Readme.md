@@ -10,8 +10,8 @@ git reset tem algumas opcoes como --soft --hard --mixed ,  --hard vai voltar e a
 
 git branch --> enchergo a branch atual
 
-git switch <nome da branch> ex: feat   para mudar de branch
-git checkout -b <none branch> ex:feat  cria uma nova branch
+git switch <nome da branch> ex: feat,para mudar de branch
+git checkout -b <none branch> ex:feat,cria uma nova branch
 git checkout -> consigo alterar entre as versoes dos arquivos e possivel ate voltaer um arquivo especifico
 git checkout HEAD -- <nome do arquivo> ex: style.css
 
@@ -22,7 +22,7 @@ git log --decorate --oneline --graph --all
 
 git diff --> enchergo todas as alteracoes do arquivo
 git diff --name-only --> enchergo apenas os arquivos
-git diff <nome do arquivo> ex: style.css  consigo acessar direatamente o arquivo e ver as mudancas
+git diff <nome do arquivo> ex: style.css,consigo acessar direatamente o arquivo e ver as mudancas
 
-
+git merge <branch que esta a frente> ex: kenji,para mergear em uma branch que esta a frente da sua,fique na sua e coloque o nome da branch
 
