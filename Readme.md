@@ -28,8 +28,6 @@ log com grafico ideal para enchergar novas mudancas
 </br>
 `git merge {branch que esta a frente} ex: kenji`,para mergear em uma branch que esta a frente da sua,fique na sua e coloque o nome da branch
 </br>
- ---
- git remote -v --> enchergo o link do repositorio remoto na maquina
----
+ **git remote -v** --> enchergo o link do repositorio remoto na maquina
 `git remote {nome que esta ao lado do link} ex: origin` -> removo o repositorio remoto
 
