@@ -30,7 +30,7 @@ Ele vai criar um novo commit,com os valores anterior apos o revet
 </br>
 
 **git remote -v** --> enxergo o link do repositório remoto na maquina</br>
-**git remote < nome que esta ao lado do link > ex: origin** -> removo o repositorio remoto
+**git remote remove < nome que esta ao lado do link > ex: origin** -> removo o repositorio remoto
 
 **git pull < quem voce esta puxando > ex:origin < para qual branch > ex: master** --> se nao deseja referenciar a branch pode apenas colocar git pull
 </br>
