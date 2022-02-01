@@ -20,7 +20,7 @@ Ele vai criar um novo commit,com os valores anterior apos o revet
 **git checkout HEAD -- < nome do arquivo > ex: style.css** --> consigo voltar ao estado anterior de um arquivo, como também recuperar se ele foi deletado</br>
 </br>
 
-**git log --decorate --online --graph --all** --> log com gráfico ideal para enxergar novas mudanças</br>
+**git log --decorate  --graph --all** --> log com gráfico ideal para enxergar novas mudanças</br>
 </br>
 
 **git diff** --> enxergo todas as alterações do arquivo </br>
