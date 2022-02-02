@@ -43,4 +43,6 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
 
 **git commit --amend** --> para editar o ultimo commit feito,vai abrir no editor seu ultimo commit, dai so renomeiar
 
+**git update-index --really-refresh** ---> caso o git pare de filtrar algo, depois foca adiconar o arquivo usando comando **git add --all --v** 
+
 
