@@ -53,8 +53,8 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
   helper = osxkeychain
 
 [user]
-  name = ricardo_maeda_jussi
-  email = ricardo_maeda_jussi@whirlpool.com
+  name = name user
+  email = email user
 
 [core]
   editor = code --wait
