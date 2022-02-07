@@ -45,4 +45,31 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
 
 **git update-index --really-refresh** ---> caso o git pare de filtrar algo, depois foca adiconar o arquivo usando comando **git add --all --v** 
 
+**git config --global core.editor code** ==> depois fizer **git config --global --edit** => vai abrir a config do git hub no vscode
+
+
+```git 
+[credential]
+  helper = osxkeychain
+
+[user]
+  name = ricardo_maeda_jussi
+  email = ricardo_maeda_jussi@whirlpool.com
+
+[core]
+  editor = code --wait
+
+[alias]
+  c = !git add --all && git commit -m
+  s = !git status -s
+  l = !git log --pretty=format: '%C(blue)%h%c(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+
+
+
+```
+
+
+
+
+
 
