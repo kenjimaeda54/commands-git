@@ -69,7 +69,13 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
 ```
 
 
-
+### Para resolver conflitos em branch
+- Apos identificar o hash do commit que esta gerando erro , fazer git checkout <hash do commit>
+- Faz um git pull <origin sua branch>
+- Abra seu editor, os codigos que voce criou e os conflitos devem estar marcados
+- Apos aprovar faz um git add .
+- Git commit
+- Depois retornar a sua branch  e faz uma nova branch com hash do commit, git checkout -b <branch> <hash do commit>  
 
 
 
