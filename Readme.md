@@ -19,6 +19,7 @@ Ele vai criar um novo commit,com os valores anterior apos o revet
 para remover arquivos do stage 
 
 **git rm -r --cached** --> <diretório>
+</br>
 **git rm --cached** --> <arquivo>
 </br>  
 
