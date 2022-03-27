@@ -15,6 +15,15 @@ Ele vai criar um novo commit,com os valores anterior apos o revet
 **git branch -d < nome da branch >** --> remove a branch local
 </br>
 ##
+
+para remover arquivos do stage 
+
+**git rm -r --cached** --> <diretório>
+**git rm --cached** --> <arquivo>
+</br>  
+
+  
+##  
 **git checkout -b < none branch > ex:feat** --> cria uma nova branch</br>
 **git checkout** -> consigo alternar entre as versões dos arquivos</br>
 **git checkout HEAD -- < nome do arquivo > ex: style.css** --> consigo voltar ao estado anterior de um arquivo, como também recuperar se ele foi deletado</br>
