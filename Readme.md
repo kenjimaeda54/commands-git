@@ -87,5 +87,10 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
 - Git commit
 - Depois retornar a sua branch  e faz uma nova branch com hash do commit, git checkout -b <branch> <hash do commit>  
 
+##
+### Clonar branch especifica
+- git clone -b  <nome da branch> url
+
+
 
 
