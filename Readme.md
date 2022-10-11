@@ -29,10 +29,9 @@ Ele vai criar um novo commit,com os valores anterior apos o revet
 
 ### Para remover arquivos do stage 
 
-git rm -r --cached --> <diretório>
-</br>
-git rm --cached  --> <arquivo>
-</br>  
+- git rm -r --cached --> <diretório>
+- git rm --cached  --> <arquivo>
+
 
   
 ##
