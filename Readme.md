@@ -1,5 +1,7 @@
-Para retorna um estado anterior do commit voce pode efetuar o git reset ou git revert.
-Ideal cenário para reset e momento que ainda nao realizou um git push da mudanca
+### Desfazer
+
+Para retorna um estado anterior do commit voce pode efetuar o git reset ou git revert. </br>
+Ideal cenário para reset e momento que ainda não realizou um git push da mudança
 Ideal para revert e apos o push
 
 </br>
