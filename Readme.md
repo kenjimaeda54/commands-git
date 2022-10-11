@@ -5,57 +5,58 @@ git reset --soft e o hash do commit que deseja voltar
 git reset tem algumas opções como --soft --hard --mixed , --hard vai voltar e apagar tudo,soft vai voltar o commit anterior manter no stage , mixed mistura dos dois
 </br>
 
-**git push revert < hash > ex: 343434** --> precisa colocar o hash que quero voltar</br>
+git push revert < hash > ex: 343434** --> precisa colocar o hash que quero voltar</br>
 Ele vai criar um novo commit,com os valores anterior apos o revet
-</br>
-##
-**git branch** --> enxergo a branch atual</br>
-**git switch < nome da branch > ex: feat** -> para mudar de branch</br>
-**git push origin :< nome da branch >** --> remove a branch remota
-**git branch -d < nome da branch >** --> remove a branch local
-</br>
+
 ##
 
-para remover arquivos do stage 
-
-**git rm -r --cached** --> <diretório>
+### Comandos básicos
+git branch --> enxergo a branch atual</br>
+git switch < nome da branch > ex: feat -> para mudar de branch</br>
+git push origin :< nome da branch >  -> remove a branch remota
+git branch -d < nome da branch >  --> remove a branch local
+git checkout -b < none branch > ex:feat** --> cria uma nova branch</br>
+git checkout -> consigo alternar entre as versões dos arquivos</br>
+git checkout HEAD -- < nome do arquivo > ex: style.css** --> consigo voltar ao estado anterior de um arquivo, como também recuperar se ele foi deletado</br>
 </br>
-**git rm --cached** --> <arquivo>
+
+##
+
+### Para remover arquivos do stage 
+
+git rm -r --cached --> <diretório>
+</br>
+git rm --cached  --> <arquivo>
 </br>  
 
   
-##  
-**git checkout -b < none branch > ex:feat** --> cria uma nova branch</br>
-**git checkout** -> consigo alternar entre as versões dos arquivos</br>
-**git checkout HEAD -- < nome do arquivo > ex: style.css** --> consigo voltar ao estado anterior de um arquivo, como também recuperar se ele foi deletado</br>
-</br>
 ##
-**git log --decorate  --graph --all** --> log com gráfico ideal para enxergar novas mudanças</br>
-</br>
+
+### Arvore do github
+git log --decorate  --graph --all --> log com gráfico ideal para enxergar novas mudanças</br>
+git diff --> enxergo todas as alterações do arquivo </br>
+git diff --name-only --> enxergo apenas os arquivos </br>
+git diff < nome do arquivo > ex: style.css --> consigo acessar direitamente o arquivo e ver as mudanças </br>
+
+
 ##
-**git diff** --> enxergo todas as alterações do arquivo </br>
-**git diff --name-only** --> enxergo apenas os arquivos </br>
-**git diff < nome do arquivo > ex: style.css** --> consigo acessar direitamente o arquivo e ver as mudanças </br>
-**git merge < branch que esta a frente > ex: kenji** --> para mergear em uma branch que esta a frente da sua,e so colocar o nome da branch
-</br>
-##
-**git remote -v** --> enxergo o link do repositório remoto na maquina</br>
-**git remote remove < nome que esta ao lado do link > ex: origin** -> removo o repositorio remoto
-##
-**git pull < quem voce esta puxando > ex:origin < para qual branch > ex: master** --> se nao deseja referenciar a branch pode apenas colocar git pull
-</br>
-##
-**git clone < ulr >** --> clonar projeto
-</br>
-##
+
+### WorkFlow
+
+git merge < branch que esta a frente > ex: kenji --> para mergear em uma branch que esta a frente da sua,e so colocar o nome da branch
+git remote -v --> enxergo o link do repositório remoto na maquina</br>
+git remote remove < nome que esta ao lado do link > ex: origin -> removo o repositorio remoto
+git pull < quem voce esta puxando > ex:origin < para qual branch > ex: master --> se nao deseja referenciar a branch pode apenas colocar git pull
+git clone < ulr > --> clonar projeto
+
+## Team
 Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópia do original no seu repositório remoto, clona esse projeto, trabalha e faz um push com as alterações, apos isto cria um pull request.
 </br>
-##
-**git commit --amend** --> para editar o ultimo commit feito,vai abrir no editor seu ultimo commit, dai so renomeiar
-##
-**git update-index --really-refresh** ---> caso o git pare de filtrar algo, depois foca adiconar o arquivo usando comando **git add --all --v** 
-##
-**git config --global core.editor code** ==> depois fizer **git config --global --edit** => vai abrir a config do git hub no vscode
+
+## Edit
+git commit --amend --> para editar o ultimo commit feito,vai abrir no editor seu ultimo commit, dai so renomeiar
+git update-index --really-refresh ---> caso o git pare de filtrar algo, depois foca adiconar o arquivo usando comando git add --all --v 
+git config --global core.editor code ==> depois fizer git config --global --edit => vai abrir a config do git hub no vscode
 
 
 ```git 
@@ -79,6 +80,7 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
 ```
 
 ##
+
 ### Para resolver conflitos em branch
 - Apos identificar o hash do commit que esta gerando erro , fazer git checkout <hash do commit>
 - Faz um git pull < origin sua branch >
@@ -88,6 +90,7 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
 - Depois retornar a sua branch  e faz uma nova branch com hash do commit, git checkout -b <branch> <hash do commit>  
 
 ##
+  
 ### Clonar branch especifica
 - git clone -b   < nome da branch > url
 
