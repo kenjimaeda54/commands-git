@@ -5,7 +5,7 @@ git reset --soft e o hash do commit que deseja voltar
 git reset tem algumas opções como --soft --hard --mixed , --hard vai voltar e apagar tudo,soft vai voltar o commit anterior manter no stage , mixed mistura dos dois
 </br>
 
-**git push revert <hash> ex: 343434** --> precisa colocar o hash que quero voltar</br>
+**git push revert < hash > ex: 343434** --> precisa colocar o hash que quero voltar</br>
 Ele vai criar um novo commit,com os valores anterior apos o revet
 </br>
 ##
@@ -81,7 +81,7 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
 ##
 ### Para resolver conflitos em branch
 - Apos identificar o hash do commit que esta gerando erro , fazer git checkout <hash do commit>
-- Faz um git pull <origin sua branch>
+- Faz um git pull < origin sua branch >
 - Abra seu editor, os codigos que voce criou e os conflitos devem estar marcados
 - Apos aprovar faz um git add .
 - Git commit
@@ -89,7 +89,7 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
 
 ##
 ### Clonar branch especifica
-- git clone -b  <nome da branch> url
+- git clone -b   < nome da branch > url
 
 
 
