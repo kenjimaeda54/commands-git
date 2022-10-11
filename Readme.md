@@ -1,6 +1,8 @@
 Para retorna um estado anterior do commit voce pode efetuar o git reset ou git revert.
 Ideal cenário para reset e momento que ainda nao realizou um git push da mudanca
 Ideal para revert e apos o push
+
+</br>
 git reset --soft e o hash do commit que deseja voltar
 git reset tem algumas opções como --soft --hard --mixed , --hard vai voltar e apagar tudo,soft vai voltar o commit anterior manter no stage , mixed mistura dos dois
 </br>
