@@ -14,7 +14,7 @@ Ideal para revert e apos o push
 ### Comandos básicos
 - git branch --> enxergo as branchs 
 - git switch < nome da branch > ex: feat -> para mudar de branch
-- git push origin :< nome da branch >  -> remove a branch remota
+- git push origin < nome da branch > -d  -> remove a branch remota
 - git branch -d < nome da branch >  --> remove a branch local 
 - git checkout -b < none branch > ex:feat --> cria uma nova branch
 - git checkout -> consigo alternar entre as versões dos arquivos
