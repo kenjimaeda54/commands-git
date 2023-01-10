@@ -58,8 +58,7 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
 - git update-index --really-refresh ---> caso o git pare de filtrar algo, depois foca adiconar o arquivo usando comando git add --all --v 
 - git config --global core.editor code ==> depois fizer git config --global --edit => vai abrir a config do git hub no vscode
 
-## Arquivo não trackeado
-- git stash --include-untracked
+
 
 ```git 
 [credential]
@@ -80,7 +79,11 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
 
 
 ```
-
+##
+## Arquivo não trackeado
+- git stash --include-untracked 
+  
+  
 ##
 
 ### Para resolver conflitos em branch
