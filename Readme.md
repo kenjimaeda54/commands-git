@@ -19,7 +19,7 @@ Ideal para revert e apos o push
 - git checkout -b < none branch > ex:feat --> cria uma nova branch
 - git checkout -> consigo alternar entre as versões dos arquivos
 - git checkout HEAD -- < nome do arquivo > ex: style.css --> consigo voltar ao estado anterior de um arquivo, como também recuperar se ele foi deletado
-- git fetch ->  (https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Trabalhando-de-Forma-Remota)[fetch]  para atualizar o repo remoto com local, desta forma vai encontrar branchs que possivelmente não existe no local, mas remoto sim
+- git fetch ->  (fetch)[https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Trabalhando-de-Forma-Remota] para atualizar o repo remoto com local, desta forma vai encontrar branchs que possivelmente não existe no local, mas remoto sim
 </br>
 
 ##
