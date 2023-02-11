@@ -6,7 +6,7 @@ Ideal para revert e apos o push
 
 - git reset --soft e o hash do commit que deseja voltar
 - git reset tem algumas opções como --soft --hard --mixed , --hard vai voltar e apagar tudo,soft vai voltar o commit anterior manter no stage , mixed mistura dos dois
-- git push revert < hash > ex: 343434** --> precisa colocar o hash que quero voltar</br>
+- git  revert < hash > ex: 343434** --> precisa colocar o hash que quero voltar</br>
 - Ele vai criar um novo commit,com os valores anterior apos o revet
 
 ##
