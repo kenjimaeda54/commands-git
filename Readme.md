@@ -18,7 +18,7 @@ Ideal para revert e apos o push
 - git push origin < nome da branch > -d  -> remove a branch remota
 - git branch -d < nome da branch >  --> remove a branch local 
 - git checkout -b < none branch > ex:feat --> cria uma nova branch
-- git checkout -> consigo alternar entre as versões dos arquivos
+- git checkout <hash do commit> -> consigo alternar entre as versões dos arquivos,depois de voltar inicio uma branch a partir dela
 - git checkout HEAD -- < nome do arquivo > ex: style.css --> consigo voltar ao estado anterior de um arquivo, como também recuperar se ele foi deletado
 - git fetch ->  [fetch](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Trabalhando-de-Forma-Remota) para atualizar o repo remoto com local, desta forma vai encontrar branchs que possivelmente não existe no local, mas remoto sim
 </br>
