@@ -101,6 +101,7 @@ Para contribuir com projeto primeiro faz o fork, apos isto, sera feito uma cópi
 ### Clonar branch especifica
 - git clone -b   < nome da branch > url
 
-
+## Renomear uma branch
+- [Renomear Branch](https://docs.github.com/pt/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch)
 
 
