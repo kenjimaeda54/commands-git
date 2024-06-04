@@ -5,7 +5,7 @@ Ideal cenário para reset e momento que ainda não realizou um git push da mudan
 Ideal para revert e apos o push
 
 - git reset --soft e o hash do commit que deseja voltar
-- git reset --soft HEAD~  ==> volto o ultimo commit que subi para servidor com todas as mudanças
+- git reset --soft HEAD~  --> volto o ultimo commit que subi para servidor com todas as mudanças
 - git reset tem algumas opções como --soft --hard --mixed , --hard vai voltar e apagar tudo,soft vai voltar o commit anterior manter no stage , mixed mistura dos dois
 - git  revert < hash > ex: 343434** --> precisa colocar o hash que quero voltar</br>
 - Normalmente ira gerar um commit caso não consiga fazer nada, revert o commit git reset --hard <commit-id>
